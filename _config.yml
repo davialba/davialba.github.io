@@ -64,14 +64,7 @@ sass:
 
 # Use the following plug-ins
 gems:
-  - # frozen_string_literal: true
-
-source "https://rubygems.org"
-gemspec
-
-gem "jekyll", ENV["JEKYLL_VERSION"] if ENV["JEKYLL_VERSION"]
-gem "kramdown-parser-gfm" if ENV["JEKYLL_VERSION"] == "~> 3.9"
- # Create a sitemap using the official Jekyll sitemap gem
+  - minima # Create a sitemap using the official Jekyll sitemap gem
 
 # Exclude these files from your production _site
 exclude:
